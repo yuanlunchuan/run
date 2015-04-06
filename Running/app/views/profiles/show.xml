@@ -1,0 +1,87 @@
+<Alloy>
+  <View id="body" backgroundColor="#fff" layout="vertical" width="Ti.UI.FILL" height="Ti.UI.FILL">
+    <View class="header-title" layout="composite">
+      <Label class="title-label" width="Ti.UI.FILL" height="Ti.UI.FILL" textAlign="center" height="Ti.UI.SIZE" text="我" />
+    </View>
+    <View width="Ti.UI.FILL" height="Ti.UI.FILL" layout="vertical">
+      <View height="Ti.UI.SIZE">
+        <View layout="horizontal" height="Ti.UI.SIZE" top="10" left="10">
+          <ImageView class="user_head_image" image="/images/user-default-icon.png"/>
+          <View layout="vertical" height="Ti.UI.SIZE" left="10" width="Ti.UI.SIZE">
+            <Label left="0" class="runner_name" text="Kevin"/>
+            <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+              <Label class="runner_level" text="Lv5"/>
+              <Label left="10" text="2085.88" color="#000"/>
+              <Label text="公里" color="#000"/>
+            </View>
+          </View>
+        </View>
+        <ImageView class="right_arrow" image="/images/right-arrow-icon.png"/>
+      </View>
+      <View backgroundColor="#e5e5e5" height="1" top="15"/>
+      <View layout="horizontal" height="Ti.UI.SIZE">
+        <View layout="vertical" height="Ti.UI.SIZE" top="10" left="13%" width="Ti.UI.SIZE">
+          <Label id="cardCountLabel" class="runner_data_text" text="137"/>
+          <Label top="5" text="晒卡"/>
+        </View>
+        <View backgroundColor="#e5e5e5" height="60" left="12%" width="1"/>
+        <View layout="vertical" height="Ti.UI.SIZE" top="10" left="12%" width="Ti.UI.SIZE">
+          <Label id="attentionLabel" class="runner_data_text" text="551"/>
+          <Label top="5" text="关注"/>
+        </View>
+        <View backgroundColor="#e5e5e5" height="60" left="13%" width="1"/>
+        <View layout="vertical" height="Ti.UI.SIZE" top="10" left="12%" width="Ti.UI.SIZE">
+          <Label id="fansLabel" class="runner_data_text" text="996"/>
+          <Label top="5" text="粉丝"/>
+        </View>
+      </View>
+      <View backgroundColor="#e5e5e5" height="1"/>
+      <View backgroundColor="#e5e5e5" height="1" top="20"/>
+      <View layout="horizontal" height="Ti.UI.SIZE" top="10" bottom="10">
+        <View height="Ti.UI.SIZE">
+          <View layout="horizontal" height="Ti.UI.SIZE" left="10" width="Ti.UI.SIZE">
+            <ImageView class="user_info_img" image="/images/home-icon.png"/>
+            <Label left="10" class="runner_option_title" text="我的主页"/>
+          </View>
+          <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" right="0">
+            <Label id="scanCountLabel" text="17336"/>
+            <Label text="次浏览"/>
+            <ImageView left="10" class="right_arrow" image="/images/right-arrow-icon.png"/>
+          </View>
+        </View>
+      </View>
+      <View backgroundColor="#e5e5e5" height="1"/>
+      <View backgroundColor="#e5e5e5" height="1" top="20"/>
+      <View layout="horizontal" height="Ti.UI.SIZE" top="10" bottom="10">
+        <View height="Ti.UI.SIZE">
+          <View layout="horizontal" height="Ti.UI.SIZE" left="10" width="Ti.UI.SIZE">
+            <ImageView class="user_info_img" image="/images/runner-log-icon.png"/>
+            <Label left="10" class="runner_option_title" text="跑步日志"/>
+          </View>
+          <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" right="0">
+            <Label id="totalDistanceLabel" text="3957.73"/>
+            <Label text="公里"/>
+            <ImageView left="10" class="right_arrow" image="/images/right-arrow-icon.png"/>
+          </View>
+        </View>
+      </View>
+      <View backgroundColor="#e5e5e5" height="1"/>
+      <View backgroundColor="#e5e5e5" height="1" top="20"/>
+      <View layout="horizontal" height="Ti.UI.SIZE" top="10" bottom="10">
+        <View height="Ti.UI.SIZE">
+          <View layout="horizontal" height="Ti.UI.SIZE" left="10" width="Ti.UI.SIZE">
+            <ImageView class="user_info_img" image="/images/history-icon.png"/>
+            <Label left="10" class="runner_option_title" text="历史成就"/>
+          </View>
+          <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE" right="0">
+            <Label text="本周第"/>
+            <Label id="rankNumberLabel" text="3"/>
+            <Label text="名"/>
+            <ImageView left="10" class="right_arrow" image="/images/right-arrow-icon.png"/>
+          </View>
+        </View>
+      </View>
+      <View backgroundColor="#e5e5e5" height="1"/>
+    </View>
+  </View>
+</Alloy>

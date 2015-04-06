@@ -1,0 +1,8 @@
+<Alloy>
+  <View id="body" backgroundColor="#fff" layout="vertical" width="Ti.UI.FILL" height="Ti.UI.FILL">
+    <View class="header-title" layout="composite">
+      <Label class="title-label" width="Ti.UI.FILL" height="Ti.UI.FILL" textAlign="center" height="Ti.UI.SIZE" text="动态" />
+    </View>
+    <Label width="Ti.UI.FILL" height="Ti.UI.FILL" text="显示动态页面" />
+  </View>
+</Alloy>

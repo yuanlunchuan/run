@@ -1,0 +1,60 @@
+<Alloy>
+  <View id="body" width="Ti.UI.FILL" height="Ti.UI.SIZE" layout="vertical">
+    <View height="1" width="Ti.UI.FIll" backgroundColor="#999" />
+    <View layout="composite" top="10" width="Ti.UI.FILL" height="Ti.UI.SIZE">
+      <ImageView image="/images/user-default.png" class="user_head_image" />
+      <View layout="vertical" class="user-info" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+        <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+          <Label text="跑步晒卡" />
+          <Label text="Lv5" class="runner_level" />
+        </View>
+        <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+          <ImageView image="/images/lead_time_image.png" width="40" />
+          <Label text="1.37" class="" color="#f00" />
+          <Label text="公里" color="#f00" />
+        </View>
+      </View>
+      <View layout="vertical" class="base-info" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+        <Label id="publishTimeLabel" text="4小时前" textAlign="left" />
+        <View layout="horizontal" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+          <Label id="publishCityLabel" text="北京市" />
+          <Label id="publishCountyLabel" text="  朝阳公园"/>
+        </View>
+      </View>
+    </View>
+    <View layout="vertical" top="10" height="Ti.UI.SIZE" left="0">
+      <Label id="speakTextLabel" class="runner_specak" text="每一个热爱子由的人，都会身不由己的热爱旅行，那箱子子由的蓝莲花，只有当你爱。每一个热爱子由的人，都会身不由己的热爱旅行，那箱子子由的蓝莲花，只有当你爱。" left="0" />
+      <Label id="showAllContentLabel" text="查看全文" class="show_all_content" left="0" />
+    </View>
+    <View layout="vertical" top="10" height="Ti.UI.SIZE">
+      <View layout="horizontal" height="Ti.UI.SIZE">
+        <ImageView image="/images/runner_image1.png" class="runner_image" />
+        <ImageView image="/images/runner_image2.png" class="runner_image" />
+        <ImageView image="/images/runner_image3.png" class="runner_image" />
+      </View>
+      <View layout="horizontal" height="Ti.UI.SIZE">
+        <ImageView image="/images/runner_image4.png" class="runner_image" />
+        <ImageView image="/images/runner_image5.png" class="runner_image" />
+        <ImageView image="/images/runner_image6.png" class="runner_image" />
+      </View>
+    </View>
+    <View layout="horizontal" class="user_option" top="10" height="Ti.UI.SIZE">
+      <View id="supportView" layout="horizontal" width="25%" class="single_option" height="Ti.UI.SIZE">
+        <ImageView image="/images/support_icon_unclicked.png" class="user_option_icon" />
+        <Label text="254" left="5" />
+      </View>
+      <View id="commitView" layout="horizontal" width="25%" class="single_option" height="Ti.UI.SIZE">
+        <ImageView image="/images/runner_comment_icon.png" class="user_option_icon" />
+        <Label text="1991" left="5" />
+      </View>
+      <View id="transmitView" layout="horizontal" width="25%" class="single_option" height="Ti.UI.SIZE">
+        <ImageView image="/images/runner_transmit_icon.png" class="user_option_icon" />
+        <Label text="22" left="5" />
+      </View>
+      <View id="moreOptionView" width="25%" class="single_option" height="Ti.UI.SIZE">
+        <ImageView image="/images/menu-icon.png" class="user_option_icon" />
+      </View>
+    </View>
+    <View class="space-view" height="30" width="Ti.UI.FILL" />
+  </View>
+</Alloy>

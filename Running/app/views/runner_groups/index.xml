@@ -1,0 +1,3 @@
+<Alloy>
+  <ScrollView id="body" showVerticalScrollIndicator="true" layout="vertical" backgroundColor="#fff" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+</Alloy>

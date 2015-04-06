@@ -1,0 +1,7 @@
+".popup-small-tag":{
+  font:{
+    fontSize: '9'
+  },
+  color: '#999',
+  top: '5'
+}

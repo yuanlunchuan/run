@@ -1,0 +1,8 @@
+<Alloy>
+  <View id="headView" class="page-title-wrap">
+    <Label id="titleLabel" class="page-title-label" ></Label>
+    <View id="editView"  class="edit-box" right="5" top="5" width="30" height="30" visible="false">
+      <ImageView id="editImage" class="edit-icon" image="/images/edit-icon-white.png" editing="false" />
+    </View>
+  </View>
+</Alloy>

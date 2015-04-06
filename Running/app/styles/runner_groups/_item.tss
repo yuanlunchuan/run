@@ -1,0 +1,56 @@
+
+".container": {},
+
+".user_head_image": {
+  left: "5%",
+  width: 60,
+  height: 60
+},
+
+".user-info":{
+  left: "25%"
+},
+
+".base-info":{
+   left: "65%"
+},
+
+".runner_level": {
+  left: 5,
+  width: 30,
+  textAlign: "center",
+  height:Titanium.UI.SIZE,
+  color: "#f00",
+  borderWidth: 1,
+  borderColor: "#f00"
+},
+
+".runner_specak": {
+  height: 50,
+  color: "#000"
+},
+
+".show_all_content": {
+  color: "#00f",
+  top: 10
+},
+
+".runner_image": {
+  width: 110,
+  left: 5,
+  top: 20
+},
+
+".user_option": {
+  height: Ti.UI.SIZE
+},
+
+".single_option":{
+  borderWidth: 1,
+  borderColor: "#e5e5e5"
+},
+
+".user_option_icon":{
+  width: '35',
+  color: '#2185c5'
+},

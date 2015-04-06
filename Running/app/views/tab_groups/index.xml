@@ -1,0 +1,6 @@
+<Alloy>
+  <Window id="window" top="0" tabBarHidden="true" exitOnClose="true">
+    <View id="mainContent" class="android-content-wrap" />
+    <Require id="footerRequired" src="tab_footers/show" activeTab="showSite" />
+  </Window>
+</Alloy>

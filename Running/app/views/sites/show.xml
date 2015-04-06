@@ -1,0 +1,12 @@
+<Alloy>
+  <View id="body" backgroundColor="#fff" layout="vertical">
+    <View class="header-title" layout="composite">
+      <View class="container">
+        <Label id="runingLabel" text="跑步" class="active-label"/>
+        <Label id="runningGroupLabel" text="跑友圈" class="unactive-label" />
+      </View>
+      <Label id="addLabel" text="+" class="add-class" />
+    </View>
+    <View id="contentView" layout="composite" width="Ti.UI.FILL" height="Ti.UI.FILL" />
+  </View>
+</Alloy>

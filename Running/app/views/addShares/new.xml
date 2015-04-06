@@ -1,0 +1,28 @@
+<Alloy>
+  <Window id="window" width="Ti.UI.FILL" height="Ti.UI.FILL" layout="vertical" >
+    <View class="header-title" layout="composite">
+      <View class="container">
+        <Label id="backLabel" text="<" class="back-class" />
+        <Label id="titleLabel" text="晒卡" class="share-label"/>
+        <Label id="sendLabel" text="发送" class="send-label" />
+      </View>
+    </View>
+    <View class="share-textArea-wrap">
+      <TextArea id="shareTextArea" class="share-text-area" hintText=" 这一刻想说的话..." />
+    </View>
+    <View width="Ti.UI.FILL" height="Ti.UI.SIZE">
+      <View width="Ti.UI.FILL" height="1" backgroundColor="#333" />
+      <View width="Ti.UI.FILL" height="Ti.UI.SIZE" layout="horizontal" >
+        <ImageView class="runner-data-image" image="/images/runner-count.png" />
+        <Label text="晒跑步数据" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+        <ImageView class="greenButton" image="/images/greenButton.png" />
+      </View>
+      <View width="Ti.UI.FILL" height="1" backgroundColor="#333" />
+      <View width="Ti.UI.FILL" height="Ti.UI.SIZE" layout="horizontal" >
+        <ImageView class="runner-data-image" image="/images/location-icon.png" />
+        <Label text="所在位置" width="Ti.UI.SIZE" height="Ti.UI.SIZE" />
+        <ImageView class="greenButton" image="/images/greenButton.png" />
+      </View>
+    </View>
+  </Window>
+</Alloy>

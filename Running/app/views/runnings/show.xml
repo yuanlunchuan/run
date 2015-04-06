@@ -1,0 +1,25 @@
+<Alloy>
+  <View id="body" layout="vertical" backgroundColor="#fff" width="Ti.UI.FILL" height="Ti.UI.FILL" >
+    <View layout="vertical" height="Ti.UI.SIZE">
+      <Label class="total_journey" text="0.00"/>
+      <Label top="10" class="total_journey_text" text="总公里"/>
+    </View>
+    <View top="30" layout="horizontal" height="Ti.UI.SIZE" right="20%" left="20%">
+      <View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+        <ImageView class="run_icon" image="/images/runner-count.png"/>
+        <Label top="10" class="icon_data" text="0" color="#000"/>
+        <Label top="10" class="icon_text" text="总跑步次数"/>
+      </View>
+      <View backgroundColor="#000" layout="vertial" height="80" right="20" left="20" width="1"/>
+      <View layout="vertical" height="Ti.UI.SIZE" width="Ti.UI.SIZE">
+        <ImageView class="run_icon" image="/images/runner-speed-icon.png"/>
+        <Label class="icon_data" text="0'00'"/>
+        <Label top="10" class="icon_text" text="平均速度"/>
+      </View>
+    </View>
+    <View top="30" layout="vertical" height="Ti.UI.SIZE">
+      <ImageView class="running_by_card_img" image="/images/circle-icon.png"/>
+      <Label top="10" class="running_by_card_text" text="打卡跑步"/>
+    </View>
+  </View>
+</Alloy>

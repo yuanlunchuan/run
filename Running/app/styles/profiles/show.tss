@@ -1,0 +1,44 @@
+
+".container": {},
+
+".user_head_image": {
+  width: 50,
+  height:Ti.UI.SIZE
+},
+
+".runner_name": {
+  color: "#000",
+  font: {
+    fontSize: 20,
+    fontWeight: 'bold'
+  }
+},
+
+".runner_level": {
+  color: "#f00",
+  borderWidth: 1,
+  borderColor: "#f00",
+  width: 40,
+  textAlign: "center"
+},
+
+".right_arrow": {
+  width: 10,
+  right: 10
+},
+
+".runner_data_text": {
+  color: "#000"
+},
+
+".user_info_img":{
+  width: 50,
+  height: Ti.UI.SIZE
+},
+
+".runner_option_title": {
+  color: "#000",
+  font: {
+    fontSize: 17
+  }
+}

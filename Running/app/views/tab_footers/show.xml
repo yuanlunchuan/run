@@ -1,0 +1,24 @@
+<Alloy>
+  <View id="containerView" layout="composite" bottom="0" height="49" backgroundColor="#fff" >
+    <View id="cutLine" width="Ti.UI.FILL" height="1" backgroundColor="#000" top="0" />
+    <View id="showSite" layout="vertical" width="25%" left="0">
+      <ImageView id="showSiteImage" class="main-botton-image" image="/images/site-icon-blue.png" />
+      <Label id="showSiteLabel" class="main-botton-label" color="#fff" text="首页" />
+    </View>
+    <View id="showFind" layout="vertical" width="25%" left="25%">
+      <ImageView id="showFindImage" class="main-botton-image" image="/images/find-icon.png" />
+      <Label id="showFindLabel" class="main-botton-label">发现</Label>
+    </View>
+    <View id="showMessage" layout="vertical" width="25%" left="50%">
+      <View height="Ti.UI.SIZE">
+        <ImageView id="showMessageImage" class="main-botton-image" image="/images/message-icon.png" />
+        <Label class="delivery-area-num hidden" left="50%" top="2" height="Ti.UI.SIZE" width="Ti.UI.SIZE" text="5" />
+      </View>
+      <Label id="showMessageLabel" class="main-botton-label">动态</Label>
+    </View>
+    <View id="showProfile" layout="vertical" width="25%" left="75%">
+      <ImageView id="showProfileImage" class="main-botton-image" image="/images/profile-icon.png" />
+      <Label id="showProfileLabel" class="main-botton-label">我</Label>
+    </View>
+  </View>
+</Alloy>
